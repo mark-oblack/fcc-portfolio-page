@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700');
+
+body {
+  background-color: #F0F1F5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+}
+
+#main-header {
+  background-color: #8870FF;
+  color: #F0F1F5;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+#main-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+}
