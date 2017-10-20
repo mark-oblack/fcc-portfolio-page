@@ -4,37 +4,44 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700');
 
 body {
-  background-color: #F0F1F5;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+	background-color: #F0F1F5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 #wrapper {
-  display: block;
-  margin: 0 auto;
-  width: 85%;
+	display: block;
+	margin: 0 auto;
+	width: 85%;
 }
 
 #main-header {
-  background-color: #8870FF;
-  color: #F0F1F5;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 700;
+	background-color: #8870FF;
+	color: #F0F1F5;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main-header h1 {
+	font-weight: 700;
+	font-size: 1.5em;
+	padding: 20px 0;
 }
 
 #main-nav {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  font-weight: 400;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	font-weight: 400;
 }
