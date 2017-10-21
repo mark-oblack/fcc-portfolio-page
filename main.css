@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,500,700');
 
+/*----------------------------
+General Styles
+----------------------------*/
 body {
 	background-color: #F0F1F5;
 	font-family: 'Roboto', sans-serif;
@@ -23,10 +26,18 @@ a {
 	width: 85%;
 }
 
+
+
+/*----------------------------
+Header
+----------------------------*/
 #main-header {
-	background-color: #8870FF;
-	color: #F0F1F5;
+	/*background-color: #8870FF;*/
+	background-color: #f0f1f5;
+	background-image: linear-gradient(0deg, #f0f1f5 0%, #8870ff 100%);
+	color: #3F3F3F;
 	display: flex;
+	justify-content: center;
 	min-height: 100vh;
 	flex-direction: column;
 	margin: 0 auto;
@@ -36,12 +47,68 @@ a {
 #main-header h1 {
 	font-weight: 700;
 	font-size: 1.5em;
-	padding: 20px 0;
+	padding-bottom: 20px;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+}
+
+#main-header h2 {
+	font-weight: 400;
+	font-size: 1em;
+	padding-bottom: 20px;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-duration: 3s;
+	-moz-animation-delay: 1s;
 }
 
 #main-nav {
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
-	font-weight: 400;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-duration: 3s;
+	-moz-animation-delay: 2s;
 }
+
+#main-nav a {
+	font-weight: 400;
+	color: #3F3F3F;
+}
+
+
+
+/*----------------------------
+Body
+----------------------------*/
+
+
+#main-content h2, h3 {
+	padding: 15px 0;
+	color: #8870FF;
+}
+
+#main-content h2 {
+	font-size: 1.3em;
+}
+
+#main-content h3 {
+	font-size: 1.1em;
+}
+
+#main-content p, li {
+	color: #3F3F3F;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
