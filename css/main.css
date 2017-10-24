@@ -6,6 +6,10 @@
 /*----------------------------
 General Styles
 ----------------------------*/
+
+* {
+	box-sizing: border-box;
+}
 body {
 	background-color: #F0F1F5;
 	font-family: 'Roboto', sans-serif;
@@ -30,10 +34,17 @@ a {
 #main-nav,
 .skills-list,
 .project-list {
+	list-style: none;
+}
+
+.flex-container {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	width: 100%;
 }
+
+
 
 /*----------------------------
 Header
@@ -70,7 +81,6 @@ Header
 }
 
 #main-nav {
-	list-style: none;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 2s;
 	-moz-animation-duration: 3s;
@@ -82,10 +92,6 @@ Header
 	color: #3F3F3F;
 }
 
-.flex-container {
-	margin: 0 auto;
-	width: 100%;
-}
 
 
 
@@ -113,16 +119,18 @@ Body
 	line-height: 1.5em;
 }
 
+.skills-list li,
+.project-list li {
+	flex-basis: 33%;
+	flex-grow: 1;
+}
+
 .badge {
-	vertical-align: middle;
+	display: block;
+	margin: 0 auto;
 	padding: 10px;
-	width: 60px;
+	width: 80px;
 }
-
-.project-list li{
-	padding: 10px;
-}
-
 
 
 
