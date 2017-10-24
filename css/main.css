@@ -27,7 +27,13 @@ a {
 	width: 85%;
 }
 
-
+#main-nav,
+.skills-list,
+.project-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
 
 /*----------------------------
 Header
@@ -65,8 +71,6 @@ Header
 
 #main-nav {
 	list-style: none;
-	display: flex;
-	justify-content: space-around;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 2s;
 	-moz-animation-duration: 3s;
@@ -110,14 +114,16 @@ Body
 }
 
 .badge {
-	width: 100px;
+	vertical-align: middle;
+	padding: 10px;
+	width: 60px;
 }
 
-.skills-list {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.project-list li{
+	padding: 10px;
 }
+
+
 
 
 /*----------------------------
