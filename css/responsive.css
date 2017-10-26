@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+@media all and (min-width: 37.5em) {
+	.project-list li {
+		flex-basis: 50%;
+	}
+	
+	.contact-list {
+		width: 80%;
+	}
+}
+
+@media all and (min-width: 53.75em) {
+	
+}
+
+@media all and (min-width: 58.75em) {
+	
+}
+
+@media all and (min-width: 81.25em) {
+	
+}

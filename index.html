@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -24,7 +25,7 @@
   	</header>
 	<div id="wrapper">
     <div id="main-content">
-      <div id="about-section">
+      <section id="about-section">
       	<h2>About</h2>
         <p>Hi, I'm Mark! I'm currently working through the freeCodeCamp curriculum in my free time to learn more about web design and development. I'm interested in front end design and development as well as graphic design. Outside of coding, I enjoy running, cheering on the Pittsburgh Penguins, and reading a quality book or comic!</p>
         <h3>Skills</h3>
@@ -36,24 +37,52 @@
 		  <li><img class="badge" src="assets/ps-icon-dark.png"></li>
 		  <li><img class="badge" src="assets/id-icon-dark.png"></li>
 		</ul>
-      </div>
-      <div id="portfolio-section">
+      </section>
+      <section id="portfolio-section">
         <h2>Portfolio</h2>
 		<ul class="project-list flex-container">
-		  <li>Project 1</li>
-		  <li>Project 2</li>
-		  <li>Project 3</li>
-		  <li>Project 4</li>
-		  <li>Project 5</li>
-		  <li>Project 6</li>
+		  <li>
+			  <div class="project-item">
+				  <img src="assets/coding-icon.png">
+				  <h4>Project 1</h4>
+			  </div>
+		  </li>
+		  <li>
+			  <div class="project-item">
+				  <img src="assets/coding-icon.png">
+				  <h4>Project 2</h4>
+			  </div>
+		  </li>
+		  <li>
+			  <div class="project-item">
+				  <img src="assets/coding-icon.png">
+				  <h4>Project 3</h4>
+			  </div>
+		  </li>
+			<li>
+			  <div class="project-item">
+				  <img src="assets/coding-icon.png">
+				  <h4>Project 4</h4>
+			  </div>
+		  </li>
+			<li>
+			  <div class="project-item">
+				  <img src="assets/coding-icon.png">
+				  <h4>Project 5</h4>
+			  </div>
+		  </li>
+			<li>
+			  <div class="project-item">
+				  <img src="assets/coding-icon.png">
+				  <h4>Project 6</h4>
+			  </div>
+		  </li>
 		</ul>
-      </div>
-      <div id="contact-section">
+      </section>
+      <section id="contact-section">
         <h2>Contact</h2>
         <p>I'm currently looking for a job that entails some form of graphic design and or front end web development. If you think I would be a good fit for any current or future opportunities, feel free to contact me through one of the methods below!</p>
-      </div>
-      <footer>
-		<ul class="footer-contact flex-container">
+		<ul class="contact-list flex-container">
 		  <li>
 			<a href="http://facebook.com/marko5279">
 				<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
@@ -80,8 +109,10 @@
 			</a>
 		  </li>
 		</ul>
+	  <footer>
         <p class="copyright">&copy; 2017 Mark E. O&#39;Black</p>
       </footer>
+	</section>
     </div>
   </div>
 </body>

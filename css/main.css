@@ -119,29 +119,49 @@ Body
 	line-height: 1.5em;
 }
 
-.skills-list li,
-.project-list li {
+.skills-list li {
 	flex-basis: 33%;
 	flex-grow: 1;
+	padding: 10px 0;
 }
 
 .badge {
 	display: block;
 	margin: 0 auto;
-	padding: 10px;
-	width: 80px;
+	width: 60%;
 }
 
+.project-list li {
+	flex-basis: 100%;
+	flex-grow: 1;
+}
+
+.project-item img {
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.project-item h4 {
+	margin: 10px 0;
+	text-align: center;
+}
 
 
 /*----------------------------
 Footer
 ----------------------------*/
 
-.footer-contact {
-	display: flex;
-	justify-content: space-around;
+.contact-list {
+	margin: 0 auto;
 	padding: 20px 0;
+}
+.contact-list li {
+	display: flex;
+	flex-basis: 20%;
+	flex-grow: 1;
+	justify-content: space-around;
 }
 
 .fa:hover {
@@ -170,10 +190,6 @@ Footer
 
 .copyright {
 	text-align: center;
-}
-
-.javascript-font {
-	font-family: 'Neutra Text Bold';
 }
 
 
