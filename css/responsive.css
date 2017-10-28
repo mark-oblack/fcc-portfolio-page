@@ -12,12 +12,52 @@
 
 @media all and (min-width: 53.75em) {
 	
+	#main-nav {
+		width: 80%;
+	}
+	
+	.skills-list {
+		width: 90%;
+	}
 }
 
 @media all and (min-width: 58.75em) {
 	
+	#wrapper {
+		width: 70%;
+	}
+	
+	.project-list li {
+		flex-basis: 33%;
+	}
+	
+	.contact-list {
+		width: 60%;
+	}
 }
 
 @media all and (min-width: 81.25em) {
 	
+	#wrapper {
+		width: 60%;
+	}
+	
+	#main-nav {
+		width: 60%;
+	}
+	
+	.project-list {
+		width: 100%;
+	}
+	
+	.contact-list {
+		width: 55%;
+	}
 }
+
+
+
+
+
+
+

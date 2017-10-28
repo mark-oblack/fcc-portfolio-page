@@ -44,6 +44,15 @@ a {
 	width: 100%;
 }
 
+#about-section,
+#portfolio-section,
+#contact-section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 
 
 /*----------------------------
@@ -81,6 +90,7 @@ Header
 }
 
 #main-nav {
+	margin: 0 auto;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 2s;
 	-moz-animation-duration: 3s;
@@ -119,28 +129,34 @@ Body
 	line-height: 1.5em;
 }
 
+.skills-list,
+.project-list{
+	margin: 0 auto;
+}
+
 .skills-list li {
 	flex-basis: 33%;
 	flex-grow: 1;
-	padding: 10px 0;
+	margin: 25px 0;
 }
 
 .badge {
 	display: block;
 	margin: 0 auto;
-	width: 60%;
+	width: 70px;
 }
 
 .project-list li {
 	flex-basis: 100%;
 	flex-grow: 1;
+	margin-top: 20px;
 }
 
 .project-item img {
 	border-radius: 10px;
 	display: block;
 	margin: 0 auto;
-	width: 60%;
+	width: 150px;
 }
 
 .project-item h4 {
@@ -188,7 +204,7 @@ Footer
 	color: #6e5494;
 }
 
-.copyright {
+footer {
 	text-align: center;
 }
 
