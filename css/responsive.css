@@ -16,6 +16,10 @@
 		width: 80%;
 	}
 	
+	#returnTop {
+		right: 40px;
+	}
+	
 	.skills-list {
 		width: 90%;
 	}
@@ -44,6 +48,10 @@
 	
 	#main-nav {
 		width: 60%;
+	}
+	
+	#returnTop {
+		right: 60px;
 	}
 	
 	.project-list {

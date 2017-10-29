@@ -39,11 +39,12 @@ a {
 
 .flex-container {
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	width: 100%;
 }
 
+#main-header,
 #about-section,
 #portfolio-section,
 #contact-section {
@@ -51,6 +52,11 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+.center-content {
+	width: 100%;
+	margin: auto;
 }
 
 
@@ -63,11 +69,7 @@ Header
 	background-color: #f0f1f5;
 	background-image: linear-gradient(0deg, #f0f1f5 0%, #8870ff 100%);
 	color: #3F3F3F;
-	display: flex;
-	justify-content: center;
 	min-height: 100vh;
-	flex-direction: column;
-	margin: 0 auto;
 	text-align: center;
 }
 
@@ -75,25 +77,26 @@ Header
 	font-weight: 700;
 	font-size: 1.5em;
 	padding-bottom: 20px;
-	-webkit-animation-duration: 3s;
-	-moz-animation-duration: 3s;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
 }
 
 #main-header h2 {
 	font-weight: 400;
 	font-size: 1em;
 	padding-bottom: 20px;
-	-webkit-animation-duration: 3s;
+	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 1s;
-	-moz-animation-duration: 3s;
+	-moz-animation-duration: 2s;
 	-moz-animation-delay: 1s;
 }
 
 #main-nav {
 	margin: 0 auto;
-	-webkit-animation-duration: 3s;
+	width: 85%;
+	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 2s;
-	-moz-animation-duration: 3s;
+	-moz-animation-duration: 2s;
 	-moz-animation-delay: 2s;
 }
 
@@ -102,6 +105,34 @@ Header
 	color: #3F3F3F;
 }
 
+.fa-angle-double-down {
+	font-size: 2em;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 3s;
+	-moz-animation-duration: 2s;
+	-moz-animation-delay: 3s;
+}
+
+
+
+/*----------------------------
+Return Top button
+----------------------------*/
+
+#returnTop {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 99;
+	color: #8870FF;
+	cursor: pointer;
+}
+
+#returnTop:hover {
+	transition: color 0.25s ease;
+  	color: #3F3F3F;
+}
 
 
 
@@ -205,6 +236,7 @@ Footer
 }
 
 footer {
+	margin-top: auto;
 	text-align: center;
 }
 
